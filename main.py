@@ -39,7 +39,6 @@ class Calculator(QWidget):
         self.setWindowIcon(QIcon('icon.png'))
         self.resize(256,256)
         self.show()
-    
 
     def activateMessage(self): # 버튼을 클릭할 때 동작하는 함수 : 메시지 박스 출력
         QMessageBox.information(self, 'Information', '메시지를 적을 수 있는 상자입니다!')
